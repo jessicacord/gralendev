@@ -1,0 +1,431 @@
+.container{
+	margin-top: 5.7rem;
+}
+
+
+/* Homepage */
+
+.uppercase{
+ 	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+.large-left-home{
+	h1{
+		color: $primary-color;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $primary-color;
+		text-align: center;
+	}
+	p{
+		color: $primary-color;
+	}
+	.container{
+		background: $tan;
+		height: 35rem;
+		padding: 2rem;
+		position: center;
+		padding-top: 7rem;
+		margin-right: -8px;
+	}
+}
+.large-right-home{
+	h1{
+		color: $tan;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $tan;
+		text-align: center;
+	}
+	p{
+		color: $tan;
+	}
+	.container{
+		background: $grey;
+		height: 35rem;
+		padding: 2rem;
+		position: center;
+		padding-top: 7rem;
+		margin-left: -8px;
+	}
+}
+.bottom-home{
+	h1{
+		color: $primary-color;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $primary-color;
+		text-align: center;
+	}
+	p{
+		color: $primary-color;
+	}
+	.container{
+		background: $tan;
+		height: 22rem;
+		padding: 2rem;
+		position: center;
+		padding-top: 2rem;
+		margin-top: 1rem;
+	}
+}
+.my-slider{
+	margin-left: -3rem;
+	margin-right: -3rem;
+}
+.top-bar-section{
+	border-style: solid; 
+	border-color: $grey; 
+	border-width: 1px; 
+	margin-left: -2.3rem; 
+	margin-right: -2.3rem;
+	ul{
+		li{
+			background: $beige;
+		}
+		.sign-in{
+			margin-right: 3rem;
+			padding-top: 0.7rem;
+			height: 2rem;
+			p{
+				text-transform: uppercase;
+				color: $orange;
+			}
+		}
+	}
+}
+
+/* Footer */
+footer{
+	margin-top: 1rem;
+	background: $beige;
+	border-top: solid;
+	border-top-width: 1px;
+	border-color: $grey;
+	.copyright{
+		p{
+			color: $jet;
+			font-size: 11px
+		}
+	}
+	.mailing-list{
+		padding-top: 0.5rem;
+		background: $grey;
+		height: 3.3rem;
+		h6{
+			padding-top: 0.3rem;
+			color: $tan;
+		}
+		.mail-text{
+			margin-right: -1rem;
+		}
+		.input{
+			background: white;
+		}
+		.button{
+			background: #6f7c73;
+			width: 8.4rem;
+			height: 3.3rem;
+			margin-top: -0.5rem;
+			margin-right: -2rem;
+			margin-left: -2rem;
+			h6{
+				color: white;
+			}
+		}
+	}
+	li{
+		padding-top: 1.1rem;
+		p{
+			color: $grey;
+			text-transform: uppercase;
+			font-size: 12px;
+		}
+	}
+}
+
+/* Product Grid */
+.page-title{
+	text-transform: uppercase;
+	font-size: 17pt;
+}
+
+
+.product-description{
+	.container{
+		background: $tan;
+		border-top: solid;
+		border-top-width: 2px;
+		border-bottom: solid;
+		border-bottom-width: 2px;
+		padding: 2rem;
+		margin-top: 3rem;
+		margin-bottom: 4rem;
+	}
+}
+
+/* Products */
+
+.container-product{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: -8px;
+	margin-left: -8px;
+}
+.overlay-product-grey{
+	background: $grey;
+    padding: 2rem;
+    position: center;
+	padding-top: 5rem;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	h2{
+		color: $tan;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $tan;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h6{
+		color: $tan;
+		text-align: center;
+	}
+	p{
+		color: $tan;
+	}
+}
+.overlay-product-orange{
+	background: $orange;
+    padding: 2rem;
+    position: center;
+	padding-top: 5rem;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	h2{
+		color: $tan;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $tan;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h6{
+		color: $tan;
+		text-align: center;
+	}
+	p{
+		color: $tan;
+	}
+}
+.overlay-product-blue{
+	background: $blue;
+    padding: 2rem;
+    position: center;
+	padding-top: 5rem;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	h2{
+		color: $tan;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $tan;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h6{
+		color: $tan;
+		text-align: center;
+	}
+	p{
+		color: $tan;
+	}
+}
+.overlay-product-tan{
+	background: $tan;
+    padding: 2rem;
+    position: center;
+	padding-top: 5rem;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	h3{
+		color: $orange;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h6{
+		color: $orange;
+		text-align: center;
+	}
+	p{
+		color: $orange;
+	}
+}
+.container-product{
+	&:hover{
+		.overlay-product-grey{
+			opacity: 1;
+		}
+		.overlay-product-orange{
+			opacity: 1;
+		}
+		.overlay-product-blue{
+			opacity: 1;
+		}
+		.overlay-product-tan{
+			opacity: 1;
+		}
+	}
+}
+
+/* Promos */
+
+.container-full{
+	margin-right: -8px;
+	margin-left: -8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.overlay-full-blue{
+	background: $blue;
+	padding-top: 5rem;
+    padding-right: 18rem;
+    padding-left: 18rem;
+    padding-bottom: 3rem;
+	position: center;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	h1{
+		color: $tan;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $tan;
+		text-align: center;
+	}
+	p{
+		color: $tan;
+	}
+}
+.overlay-full-tan{
+	background: $tan;
+	padding-top: 5rem;
+    padding-right: 18rem;
+    padding-left: 18rem;
+    padding-bottom: 3rem;
+	position: center;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	h1{
+		color: $orange;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $orange;
+		text-align: center;
+	}
+	p{
+		color: $orange;
+	}
+}
+.container-full{
+	&:hover{
+		.overlay-full-blue{
+			opacity: 1;
+		}
+		.overlay-full-tan{
+			opacity: 1;
+		}
+	}
+}
+
+/* Misc */
+
+.container-misc{
+	margin-right: -8px;
+	margin-left: -8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.overlay-misc-tan{
+	background: $tan;
+	padding-top: 8rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+	position: center;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	h1{
+		color: $orange;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $orange;
+		text-align: center;
+	}
+	p{
+		color: $orange;
+	}
+}
+.overlay-misc-grey{
+	background: $grey;
+	padding-top: 8rem;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+	position: center;
+    opacity: 0;
+    -webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	h1{
+		color: $tan;
+		line-height: 1.4rem;
+		text-align: center;
+	}
+	h3{
+		color: $tan;
+		text-align: center;
+	}
+	p{
+		color: $tan;
+	}
+}
+.container-misc{
+	&:hover{
+		.overlay-misc-tan{
+			opacity: 1;
+		}
+		.overlay-misc-grey{
+			opacity: 1;
+		}
+	}
+}
+
+
